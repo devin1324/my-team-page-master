@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="src/devchallenges.png" />
+  
+    <title>Devchallenges</title>
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+       
+      }
+
+      header{
+        width:100%;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+      }
+     
+      header > h1{
+        margin-left:20vw;
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 48px;
+        letter-spacing: -0.045em;
+        color: #000000;
+      }
+
+      header > section{
+        margin-left: 20vw;
+      }
+
+      header > section > p{
+        width: 16vw;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+      }
+
+      #container-1{
+        width:100%;
+        display: flex;
+        row-gap: 14vh;
+        column-gap: 7vw;
+        flex-flow: wrap;
+        justify-content:center;
+        margin-top: 9vh;
+        
+      }
+
+      .team-members{
+        width: 12em;
+        
+      }
+     
+      .team-member-pos-1{
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #000000;  
+        transform: rotate(90deg);
+        position: relative;
+        margin-top: -24.5em;
+        margin-left: 13em;
+      }
+
+      .team-member-pos{
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #000000;  
+        transform: rotate(90deg);
+        position: relative;
+        margin-top: -25.5em;
+        margin-left: 14em;
+      }
+      
+      break{
+        flex-basis: 90%;
+        width: 0px; 
+        height: 0px; 
+        overflow: hidden;
+      }
+
+      #container-1 > section, break{
+        display: inline-block;
+      }  
+
+      #container-1> section:nth-child(2), section:nth-child(6){
+        margin-top: 10vh;
+      }
+      
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <h1>The creative crew</h1>
+      <section>
+        <h1>Who we are</h1>
+        <p>
+          We are team of creatively diverse.  driven.  innovative individuals working in various locations from the world.
+        </p>
+      </section>
+    </header>
+
+    <div id="container-1">
+       <section class="team-member-container-1">
+        <img class="team-members" src="src/photo1.png" alt="">
+        <h6 class="team-member-name">Bill Mahoney</h6>
+        <p class="team-member-pos-1">Product owner</p>
+       </section>
+       
+       <section class="team-member-container-1">
+        <img class="team-members" src="src/photo2.png" alt="">
+        <h6 class="team-member-name">Saba Cabrera</h6>
+        <p class="team-member-pos">Art director</p>
+       </section>
+
+       <section class="team-member-container-1 ">
+        <img class="team-members" src="src/photo3.png" alt="">
+        <h6 class="team-member-name">Saba Cabrera</h6>
+        <p class="team-member-pos">Art director</p>
+       </section>
+       <break></break>
+       <section class="team-member-container-1 break">
+        <img class="team-members" src="src/photo4.png" alt="">
+        <h6 class="team-member-name">Saba Cabrera</h6>
+        <p class="team-member-pos">Art director</p>
+       </section>
+
+       <section class="team-member-container-1">
+        <img class="team-members" src="src/photo5.png" alt="">
+        <h6 class="team-member-name">Saba Cabrera</h6>
+        <p class="team-member-pos">Art director</p>
+       </section>
+
+       <section class="team-member-container-1">
+        <img class="team-members" src="src/photo6.png" alt="">
+        <h6 class="team-member-name">Saba Cabrera</h6>
+        <p class="team-member-pos">Art director</p>
+       </section>
+    </div>
+
+  </body>
+</html>
